@@ -1,0 +1,4 @@
+paragrapg tag which ahs an opening and closing tag <p></p>
+
+the HTML or browser don't know when a new paragrapgh starts so we use the p tag,
+to find useless writing to test your work you can go to Lipsum.com, to get a lorem ipsum writing

@@ -1,0 +1,54 @@
+their are 3 ways for using css inline (styling only one element), internal(styling a page) and  external (styling a website with its multple page)
+the net use to exit with html only and no way of styling until the html 3.2 was introduced with tages of table, fonts color and centre available. but now it's all out 
+the creation of css by "ask google sloves the problem"
+
+there are more css like sass, and less(lean css) and others but css is what every developer should know
+
+selecting elemnt to style.
+1. tag
+2. tag and an attribute to be more specific
+3. using class calling it with . operator
+4. using id calling it with #
+5. and finally the general *
+
+the class can have multple elements with the same class
+but an id is unique only 1 sholud exit
+
+i learn how to use the prettier extension on vs code.
+
+i saw a discord channel for those that learn angela yu's course will be joining it after i fininsed all the course
+
+css colors 
+can be used through using name
+2. or thier rgb value
+3. or their hex value
+
+the font can be used un the normal way. or you can use google font to insert awesome fonts
+the css box model is about margin, border, padding, which affect the height and weight displayed butdo not affect the real height and the weight of the object.
+
+the casscade part of css 
+is about how to use selectors, and which selector's are more powerful
+1. it's about the locaion. the most recent get the bread(in with new out with the old)
+2. specifity, the ones that are more specific
+the range of specifity is 1st the tag(lowest order)
+2nd(class) 3rd(tag and attribute) 4th(id)
+3. is the type external(not strong), internal(strong), inline(much stronger)
+4. importance, you can use a space and !Important on the end on a css to show importance.
+when things coninside things go from top to bottom in slide of power.
+
+Css slectors
+its about order ways to select an element
+1. selector > selector will choose a father chaild element
+2. selector selector will choose a grandfather grandchildren element
+3. selectorselector is morre about specifity, which prefarably should start with tag then class or id
+4. the group selector selector, selector which will choose both elements
+
+
+css positioning
+static which is the way of html things flow just like how they are written which is the default
+relative postioning which is aboout postioning based on where it will have been in the static position
+absoulute is about a positioning based on it's most recent positioned parent. if there are none then the top left conner
+fixed based on the top leaft corner and will always remain on the page 
+sticky fixed but will scroll but will not leave the page.
+
+
