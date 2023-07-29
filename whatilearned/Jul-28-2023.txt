@@ -1,0 +1,22 @@
+i learned that all html elements has default properties, so if some css property is not working just check that
+
+css display
+3 main kinds of display
+1 block eg p h1
+2 inline eg span on the same line
+3 inline-block  a good one that makes blocks able to ecit on the same line and can resize them
+
+float property
+to get a text to wrap around picture left or right
+to choose an element you don't want to be afeected bay the float property use
+clear property and choose none
+
+how to create responsive website.
+there are mainly 4 ways by angela
+1. using media Query
+2. css grid
+3. flex box
+4. framework, they are called frameworks cause they are extrnsl eg bootstrap.
+
+using media Query
+syntax @media(max-width: 500px){} in css or styles.
