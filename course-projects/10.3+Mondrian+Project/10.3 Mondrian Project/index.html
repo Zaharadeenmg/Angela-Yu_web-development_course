@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+      .cntr-container {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+      }
+
+      .board {
+        background-color: aqua;
+        width: 748px;
+        height: 748px;
+        display: grid;
+        grid-template-columns: 320px 428px;
+        grid-template-rows: 414px 334px;
+      }
+
+      .x1{background-color: #E72F24;}
+      .x2{background-color: #F0F1EC;
+      border-left: 9px solid #000;}
+      .x3{background-color: #F0F1EC;
+      border-top: 9px solid #000;
+      display: flex;
+      align-items: end;}
+      .x4{background-color:  #F0F1EC;
+      border-top: 9px solid #000;
+      border-left: 9px solid #000;
+      display: flex;}
+
+      .ldb{
+        height: 20px;
+        width: 100%;
+        border-top: 9px solid #000;
+      
+      }
+      /* .x5{background-color: rgb(214, 226, 43);}
+      .x6{background-color: rgb(62, 90, 95);}
+      .x7{background-color: rgb(61, 43, 78);}
+      .x8{background-color: rgb(15, 63, 11);}
+      .x9{background-color: rgb(153, 22, 94);} */
+
+      .rdr{
+        width: 351px;
+        height: 100%;
+        background-color:  #F0F1EC;
+        display: flex;
+        align-items: end;
+      }
+
+      .rl{
+        width: 59px;
+        height: 100%;
+        border-left: 9px solid #000;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .rdb1{
+        height: 20px;
+        width: 198px;
+        border-right: 9px solid #000;
+        border-top: 9px solid #000;
+        background-color: #F9D01E;
+      }
+
+      .rdb2{
+        height: 20px;
+        width: 153px;
+        border-top: 9px solid #000;
+        background-color:  #232629;
+      }
+      .rl1{
+        width: 59px;
+        height: 130px;
+        border-bottom: 20px solid #000;
+        background-color: #004592;
+      }
+      .rl2{
+        width: 59px;
+        height: 185px;
+        background-color:  #F0F1EC;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="cntr-container">
+      <div class="board">
+        <div class="item x1"></div>
+        <div class="item x2"></div>
+        <div class="item x3">
+          <div class="ldb"></div>
+        </div>
+        <div class="item x4">
+          <div class="rdr">
+            <div class="rdb1"></div>
+            <div class="rdb2"></div>
+          </div>
+          <div class="rl">
+            <div class="rl1"></div>
+            <div class="rl2"></div>
+          </div>
+
+        </div>
+        <!-- <div class="item x5"></div>
+        <div class="item x6"></div>
+        <div class="item x7"></div>
+        <div class="item x8"></div>
+        <div class="item x9"></div>
+      </div> -->
+    </div>
+  </body>
+</html>

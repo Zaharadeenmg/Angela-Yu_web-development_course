@@ -30,3 +30,28 @@ the flex grow of value 1 or above give it the ability of growing to full the who
 the flex-shrink of valu2 or above give it the ability to shrink to the mininum width
 the flex: 1; means(flex-basis:0;, flex-grow:1;, and flex-shrink:1;)
 if any content differs in the value of the flex, then it means the will shrink or grow in such ratio.
+
+gap is the properiy used in creating gaps between flex elements
+the gap property is a parent element property not child 
+
+Display grid,
+well awesome for 2 dimentional layout
+syntax  Display:grid
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+
+four creating some when your dimentional is more or less can grow
+grid-auto-rows: and put the size how you want them to appear;
+you can use auto(as big as the element) or px(but no responsive)
+yes and you can use the repeating syntax( repeat(2, 1fr))
+and then the minmax(200px, 300px); syntax
+
+Grid sizing there are alot ways for grid sizing both responsive and none responsive
+eg the px and the rem are not responsive but thr fr are
+
+the gap of the grid cannot be colored but the color of the background shows
+
+grid can be sized with the use of span and chnge where it appears with the order property
+to alocate and give grid a place to appear you can use the grid area property that give the 4 co'ordinates of row start, column start, row end, and column end.
+
+grid is awesome
