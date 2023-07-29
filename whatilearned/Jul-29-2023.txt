@@ -1,0 +1,32 @@
+what i learn
+
+Display flex
+for it to work the container has to be declared as a flex, Display:flex
+normally flex occupies the whole line, but inline-flex helps to restrict it to the size of the item
+
+in all flex containers it has it main axis which it's default is the row axis,
+but can be declared to: flex-direction column to change the main axis to column
+the flex basis can only be used on the children of the container, and will only affect the sizing of the main axis
+
+flex direction
+it's mainly in row but can be changed to column or row-reverse, or column-reverse
+
+flex-layout.
+their are 4 main properites here
+1-justify-content(this works mainly on the main axis, can be set to, flex-start, flex-end, space-between, space-around, space-evenly)
+2-align items(this works on the cross axis, properties: baseline, center, stretch, flex-start, flex-end)
+3-flex wrap(can be set to, wrap, no wrap(default), wrap-reverse)
+4- align content(this works just like aling items but only when wrap is active)
+
+Flex sizing
+the hierachy in size for a flex box is
+1. the maximum width is how big the content is(the sentence), the mininum width is how long the longest word is,
+2. if a width is applied for the content then above is overidden.
+3. then flex-basis which over-rides the above.
+4. then finally all are overidden when maximum and mininumwidth are applied
+
+then under all that there is flex-grow and the flex-shrink.
+the flex grow of value 1 or above give it the ability of growing to full the whole content
+the flex-shrink of valu2 or above give it the ability to shrink to the mininum width
+the flex: 1; means(flex-basis:0;, flex-grow:1;, and flex-shrink:1;)
+if any content differs in the value of the flex, then it means the will shrink or grow in such ratio.
