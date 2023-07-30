@@ -3,16 +3,11 @@
 // }
 
 {
-    "beautify.onSave": true,
+  "beautify.onSave": true,
 
-    "editor.formatOnSave": true,
+  "editor.formatOnSave": true,
 
-    "beautify.JSfiles": [
-        "js",
-        "json",
-        "jsbeautifyrc",
-        "jshintrc",
-        "ts"
-    ],
-    "beautify.config": ""
+  "beautify.JSfiles": ["js", "json", "jsbeautifyrc", "jshintrc", "ts"],
+  "beautify.config": "",
+  "livePreview.defaultPreviewPath": "/course-projects/11.3+TinDog+Project/11.3 TinDog Project/index.html"
 }

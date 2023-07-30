@@ -1,0 +1,75 @@
+bootstrap contain alot of sh0rtcuts
+bootstrap layout or it's own grid system is all about the col-12 system where the site page is divided into 12
+every element can be alocated whatever size you want to create for it.
+you can create a manualy grid system with bootstrap and let i be responsive
+by using the container class, followed by the row class then the columns for each element and how many of the cols would they occupy
+all things usually has a shortcut in bootstrap or everything is a class every function
+every utility like flex borders padding and such.
+
+sections and templates can be downloaded with a simple copy and paste and are fully customizable
+you can choose the point of responsiviness with the sm, md lg, xl xxl tags it's awesome.
+
+
+Web designing principles
+is divided in 4 majors
+1. color theory
+2. Typography
+3. User Interface designing
+4. User experience Design
+
+color theory
+colors say the mood
+red shows energy and intesity and more
+yellow really attention grabing 
+blue trust stable and more
+green freshness
+purple loyalty fememinity
+
+all colors show some kind of mode, choose carefully
+
+but in a site you don't use one color, probably one main color
+we analougous selection of colors to create our color pallettte sometime chosing a color that is very close to the main
+this usually create a graphics that is smooth peacfully comforting and sailing
+
+we can use complementing color chosing
+this is using a color that is opposite of the main color,and this usually create the pop you are loking for which is good sometimes
+sometimes we use triadic color pallettte, or perfect square, you can find colour palletttes that are already create by designers in color hunt that might be good for your site.
+
+Typography
+the font matter annd just like the color its shows mood 
+there are two major fonts
+the serif and the sans-serif
+the serif family are those with thte feet and they originated form the days of yore when we carve
+the serif shows more authoratative and seriousness and it has evolve in the net, the more modern serif font the more sharper the edeges become
+
+the other group are the sans-serif showing comfort stabilty colosenes and near and it has no feet of the serif
+
+when choosing a font always choose those that are legible and more readeble
+1. check the open spaces on the letters
+2. check the spaces between them
+3. check the ambiguty how different are 0 an O, how diffferent are 9 g.
+
+you should not use more than 2 fonts,
+you can choose to the same font just one lighter and the other bolder
+or based on its serifness
+choose fonts that there moods support each other.
+
+User-Interface designers
+not everyting has the same power and not everything needs the same power, as a designer you have to find what needs more poer for you clinet and you audience
+the ways of achiving such power hierachy are
+1. sizing
+2. colour
+3. layout(more pictuers less words, and the words line can be too long it becomes hard to read, and to short become too chunky, advisably you should use 40 - 60 characters per line)
+4. alignment(the less the alignment points the better)
+5. whitespace (very important shows elegance and imortance)
+6. design for your audience(always, the audience comes first)
+
+User-experience
+the user experience is suppose to be invisible but exit
+1. simple(keep things simple)
+2. consistentcy(across the website and even across the web, if your site has a well known template online just follow it, don't create a new learning graph for the audience)
+3. Reading patterns(design things according to the reading patterns of f or z)
+4. dont use dark-patterns
+5. design for more than one plartform(responsiviness and stil be consistent)
+
+

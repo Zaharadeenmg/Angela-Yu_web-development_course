@@ -55,3 +55,14 @@ grid can be sized with the use of span and chnge where it appears with the order
 to alocate and give grid a place to appear you can use the grid area property that give the 4 co'ordinates of row start, column start, row end, and column end.
 
 grid is awesome
+
+
+bootstrap
+this is a extrnal framework css html styling, created by 2 twitter geeks in 2010
+order kind of frameworks exit like foundation and tailwind and others,
+
+its good when you want to create a smooth site with responsiviness very fast too
+its not good when you want to create something that you want to control every single facet of
+and not good cause it end up with site that has too much html element.
+
+can connect with bootstrap on your site with just a link in the head tag
