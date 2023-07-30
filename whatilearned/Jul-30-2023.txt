@@ -72,4 +72,3 @@ the user experience is suppose to be invisible but exit
 4. dont use dark-patterns
 5. design for more than one plartform(responsiviness and stil be consistent)
 
-
